@@ -148,7 +148,7 @@ main a{
     max-width: 100%;
 }
 .container div{
-    display:inline-block 
+    display:inline-block;
     flex-direction: column;
     background-color: #ffffff;
     text-align: center;
