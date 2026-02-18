@@ -59,6 +59,8 @@ div seperator{
 main{
     margin-top: 70px;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 25px;
     gap: 40px;
     display: flex;
@@ -149,16 +151,15 @@ main a{
     max-width: 100%;
 }
 .container div{
-    display:inline-block;
-    flex-direction: column;
+    display: inline-block;
     background-color: #ffffff;
     text-align: center;
+    justify-content: center;
     padding: 15px;
     margin: 15px;
     max-width: 27%;
     width: 300px;
     height: 450px;
-
 }
 setMin{
     max-width: 100%;
@@ -184,14 +185,11 @@ setMin{
     gap: 0px;
 }
 .container a{
-
     color: white;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 14px;
+    border-radius: 12px;
 }
 .container p{
     margin: 10px;
