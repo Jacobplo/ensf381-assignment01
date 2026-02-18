@@ -59,6 +59,8 @@ div seperator{
 main{
     margin-top: 70px;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 25px;
     gap: 40px;
     display: flex;
@@ -66,6 +68,7 @@ main{
     justify-content: center;
     flex-direction: column;
     background-color: #fff8ee;
+    max-width: 1100px;
 }
 
 main input[type="text"],input[type="password"] {
@@ -91,10 +94,10 @@ main h1{
 main div{
     flex-direction: column;
     height: fit-content;
-    max-width: 1100px;
     padding: 25px;
     background-color: #fff8ee;
     border-radius: 25px;
+    margin-bottom: 40px;
     justify-content: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 
@@ -115,9 +118,7 @@ main table{
     border: black solid 1px;
     border-collapse: collapse;
     background-color: #fff8ee;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 10px 15px;
     align-content: left;
 }
 main td{
@@ -132,10 +133,8 @@ main td{
 }
 main a{
     color: white;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    border-radius: 12px;
+    padding: 8px 14px;
     margin-top: 15px;
 }
 .container{
@@ -148,16 +147,14 @@ main a{
     max-width: 100%;
 }
 .container div{
-    display:inline-block;
-    flex-direction: column;
+    display: inline-block;
     background-color: #ffffff;
     text-align: center;
+    justify-content: center;
     padding: 15px;
     margin: 15px;
     max-width: 27%;
-    width: 300px;
-    height: 450px;
-
+    min-width: 170px;
 }
 setMin{
     max-width: 100%;
@@ -169,7 +166,7 @@ setMin{
 }
 
 .container img{
-    height: 40%;
+    height: 150px;
     width: auto;
     border-radius: 20px;
     margin: 5 px;
@@ -183,19 +180,16 @@ setMin{
     gap: 0px;
 }
 .container a{
-
     color: white;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 14px;
+    border-radius: 12px;
 }
 .container p{
     margin: 10px;
 }
-.container_2{
+.container-2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -204,7 +198,7 @@ setMin{
     border-bottom: none;
     max-width: 100%;
 }
-.container_2 div{
+.container-2 div{
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
@@ -212,27 +206,25 @@ setMin{
     padding: 10px;
     border: none;
     margin: 15px;
-    max-width: 27%;
-    width: 250px;
+    width: 190px;
     height: 400px;
 
 }
-.container_2 img{
-    height: 40%;
+.container-2 img{
+    height: 150px;
     width: auto;
     border-radius: 20px;
-    margin: 10px;
 }
-.container_2 p{
+.container-2 p{
     border-radius: 20px;
     margin: 10px;
 }
-.container_2 h1{
+.container-2 h1{
     font-size: larger;
     gap: 0px;
     padding: 0px;
 }
-.container_2 a{
+.container-2 a{
 
     color: white;
     padding-left: 14px;
@@ -240,7 +232,7 @@ setMin{
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.container_2 .add_remove_button{
+.container-2 .add_remove_button{
     display: flex;
     box-shadow: none;
     flex-direction: row;
@@ -252,7 +244,7 @@ setMin{
     gap: 0px;
     height: fit-content;
 }
-.container_2 .add_button{
+.container-2 .add_button{
     width: fit-content;
     margin: 0px;
     padding: 8px;
@@ -262,7 +254,7 @@ setMin{
     margin-right: 5px;
     text-align: center;
 }
-.container_2 .remove_button{
+.container-2 .remove_button{
     width: fit-content;
     background-color: #c94c4c;
     padding-top:0px;
