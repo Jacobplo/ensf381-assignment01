@@ -10,15 +10,10 @@ header{
     border-bottom: 5px solid #e4b48c;
     display: flex;
     align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
 }
 
-header div{
-    width: 100%;
-    padding: 15px 30px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
 
 header img {
     height: 60px;
@@ -113,6 +108,7 @@ main form{
     padding: 20px;
     background-color: #fff8ee;
     margin-bottom: 70px;
+    text-align: center;
 }
 main table{
     border: black solid 1px;
@@ -120,6 +116,7 @@ main table{
     background-color: #fff8ee;
     padding: 10px 15px;
     align-content: left;
+    text-align: left;
 }
 main td{
 
@@ -155,6 +152,7 @@ main a{
     margin: 15px;
     max-width: 27%;
     min-width: 170px;
+    border-radius: 20px;
 }
 setMin{
     max-width: 100%;
@@ -203,9 +201,10 @@ setMin{
     flex-direction: column;
     background-color: #ffffff;
     text-align: center;
-    padding: 10px;
     border: none;
+    border-radius: 20px;
     margin: 15px;
+    padding: 15px;
     width: 190px;
     height: 400px;
 
@@ -239,18 +238,16 @@ setMin{
     justify-content: center;
     width:fit-content;
     font-size: 12px;
-    padding: 0px;
     margin: 10px;
+    padding: 8px 14px;
     gap: 0px;
     height: fit-content;
 }
 .container-2 .add_button{
     width: fit-content;
     margin: 0px;
-    padding: 8px;
     border-radius: 12px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding: 8px 14px;
     margin-right: 5px;
     text-align: center;
 }
